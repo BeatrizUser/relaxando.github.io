@@ -1,13 +1,15 @@
 body{
-    background: #f3f3f3;
+    background: #686868;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
-    background-image: url("../assets/bg.jpg");
-    background-size: 400%;
+    background-image: url("../assets/bg2.png");
+    background-size: 90%;
     background-position: top;
+    z-index: 0;
+    background-blend-mode: multiply;
 }
 header{
-    background: rgb(1, 88, 88);
+    background: rgb(219, 75, 8);
     margin: 0px;
     margin-bottom: 40px;
     display: grid;
@@ -21,23 +23,63 @@ header{
     align-items: center;
 }
 audio {
-    width: 190px;
-    height: 54px;
+    width: 235px;
+    height: 25px;
+    background: rgb(241,243,244);
+    border-radius: 0px 0px 8px 8px;
 }
 .audio{
+    width: auto;
+    margin: 8px;
+    border-radius: 10px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgbgcard{
+    padding: 8px;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    
+
 }
-h1, h2, h3, h4, h5, h6{
+.filter {
+    z-index: 3;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.397);
+    
+}
+
+h1,h2{
     display:flex;
     font-size: 20px;
-    margin: 5px;
-    padding: 15px;
-    color:rgb(255, 255, 255);
-    background: rgb(1, 88, 88);
+    margin: 2px;
+    padding: 0px 8px;
+    color:#ebebeb;
     border-radius: 20px;
 }
+h3,h4{
+    display:flex;
+    font-size: 15px;
+    margin: 2px;
+    padding: 8px;
+    color:#ebebeb;
+    border-radius: 20px;
+}
+h5,h6{
+    display:flex;
+    font-size: 12px;
+    margin: 2px;
+    padding: 8px;
+    color:#ebebeb;
+    border-radius: 20px;
+}
+
+
 .logo{
     font-size: 30px;
     padding: 5px;
