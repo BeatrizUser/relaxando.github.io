@@ -2,13 +2,14 @@ body{
     background: #f3f3f3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
-    background-image: url("assets/bg.jpg");
-    background-size: 1000px;
-    background-repeat: repeat;
+    background-image: url("../assets/bg.jpg");
+    background-size: 400%;
+    background-position: top;
 }
 header{
-    background: rgb(43, 247, 162);
+    background: rgb(1, 88, 88);
     margin: 0px;
+    margin-bottom: 40px;
     display: grid;
     color: #fff;
 }
@@ -20,7 +21,7 @@ header{
     align-items: center;
 }
 audio {
-    width: 200px;
+    width: 190px;
     height: 54px;
 }
 .audio{
@@ -32,8 +33,10 @@ h1, h2, h3, h4, h5, h6{
     display:flex;
     font-size: 20px;
     margin: 5px;
-    padding: 20px;
-    color:rgb(5, 173, 103);
+    padding: 15px;
+    color:rgb(255, 255, 255);
+    background: rgb(1, 88, 88);
+    border-radius: 20px;
 }
 .logo{
     font-size: 30px;
