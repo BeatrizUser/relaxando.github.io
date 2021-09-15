@@ -24,9 +24,10 @@ header{
 }
 audio {
     width: 360px;
-    height: 25px;
+    height: 36px;
     background: rgb(241,243,244);
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 9px 9px;
+    font-size: 25px;
 }
 .audio{
     max-width: min-content;
@@ -44,8 +45,9 @@ audio {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-
+}
+img{
+    border-radius: 9px;
 }
 .filter {
     z-index: 3;
