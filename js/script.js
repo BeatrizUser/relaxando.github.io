@@ -77,7 +77,7 @@ function gerahtmldoaudio(audio){
     return `<div class="audio filter">
             <div class="info">
             <div class="imgbgcard">
-            <img src="${audio.imagem}" style="width: 90vw; height: 90vw;">
+            <img src="${audio.imagem}">
             </div>
             <div class="description">
             <h2>${audio.titulo}</h2>

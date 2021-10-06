@@ -20,9 +20,10 @@ header{
     justify-content: center;
 }
 audio {
-    width: 90vw;
+    min-width: 120px;
+    max-width: 300px;
+    height: 35px;
     margin-bottom: 8px;
-    height: 36px;
     background: rgb(241,243,244);
     border-radius: 0px 0px 9px 9px;
     font-size: 25px;
@@ -36,17 +37,29 @@ audio {
     align-items: center;
 }
 .audio{
-    max-width: min-content;
+    min-width: 120px;
+    max-width: 320px;
     margin-bottom: 8px;
     border-radius: 10px;
+    padding: 8px;
 }
 .audioplayer{
     display: grid;
     justify-content: center;
 }
+.description{
+    display: grid;
+    justify-items: center;
+}
 img{
     border-radius: 9px;
     margin: 8px;
+    max-width: min-content;
+    height: auto;
+}
+.imgbgcard{
+    display: flex;
+    justify-content: center;
 }
 .filter {
     z-index: 3;
@@ -54,14 +67,14 @@ img{
     background-color: rgba(0, 0, 0, 0.397);
 }
 .info{
-    display: block;
-    width: auto;
+    display: grid;
+    justify-items: center;
 }
 h1,h2{
-    display:flex;
+    
+    display: grid;
+    justify-items: center;
     font-size: 20px;
-    margin: 2px;
-    padding: 0px 8px;
     color:#ebebeb;
     border-radius: 20px;
 }
