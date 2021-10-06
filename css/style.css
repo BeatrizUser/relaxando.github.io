@@ -1,61 +1,62 @@
 body{
     background: #686868;
-    font-family: 'Urbanist', sans-serif;
-    margin: 0px;
+    font-family: 'Yaldevi', sans-serif;
     background-image: url("../assets/bg2.png");
     background-size: 90%;
     background-position: top;
     z-index: 0;
     background-blend-mode: multiply;
+    width: 100vw;
 }
 header{
-    background: rgb(219, 75, 8);
+    background: rgba(1, 66, 66, 0.493);
     margin: 0px;
     margin-bottom: 40px;
     display: grid;
     color: #fff;
 }
 .contentbody{
-    margin: 0px 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    display: grid;
+    justify-content: center;
 }
 audio {
-    width: 360px;
+    width: 90vw;
+    margin-bottom: 8px;
     height: 36px;
     background: rgb(241,243,244);
     border-radius: 0px 0px 9px 9px;
     font-size: 25px;
 }
-.audio{
-    max-width: min-content;
-    margin: 8px;
-    border-radius: 10px;
-    height: auto;
-    align-items: center;
+.listadeaudios{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     align-items: center;
 }
-.imgbgcard{
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.audio{
+    max-width: min-content;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.audioplayer{
+    display: grid;
+    justify-content: center;
 }
 img{
     border-radius: 9px;
+    margin: 8px;
 }
 .filter {
     z-index: 3;
     backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.397);
-    
 }
-
+.info{
+    display: block;
+    width: auto;
+}
 h1,h2{
     display:flex;
     font-size: 20px;
@@ -80,19 +81,26 @@ h5,h6{
     color:#ebebeb;
     border-radius: 20px;
 }
-
-
+span{
+    padding: 0;
+    margin: 0;
+}
 .logo{
     font-size: 30px;
-    padding: 5px;
 }
 .contentnavbar{
     display: flex;
     align-items: center;
 }
 .navbar{
-    display: inline-flex;
-    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 }
 ul{
     text-decoration: none;
