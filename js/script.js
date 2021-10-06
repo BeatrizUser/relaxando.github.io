@@ -62,14 +62,20 @@ var audios = [
 {
     titulo: "Audio 11 - Posso tudo naquele que me fortalece. Filipenses 4:13",
     description: "Meditação para ansiedade e exercícios de atenção plena.",
-    imagem: "assets/bg11.jpeg",
+    imagem: "assets/bg11.jpg",
     loc: "assets/Audio11.mp3",
 },
 {
     titulo: "Audio 12 - Reconhecendo Gratidão.",
     description: "Meditação para ansiedade e exercícios de atenção plena.",
-    imagem: "assets/bg12.jpeg",
+    imagem: "assets/bg12.jpg",
     loc: "assets/Audio12.mp3",
+},
+{
+    titulo: "Audio 13 - Meditação da bondade amorosa.",
+    description: "Essa prática tem o objetivo de nos ajudar a direcionar nossos corações e mentes para um maior senso de bondade e compaixão.",
+    imagem: "assets/bg13.jpg",
+    loc: "assets/Audio13.mp3",
 },
 ];
 

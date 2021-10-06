@@ -21,7 +21,7 @@ header{
 }
 audio {
     min-width: 120px;
-    max-width: 300px;
+    max-width: 266px;
     height: 35px;
     background: rgb(241,243,244);
     border-radius: 0px 0px 9px 9px;
@@ -37,7 +37,7 @@ audio {
 }
 .audio{
     min-width: 120px;
-    max-width: 320px;
+    max-width: 300px;
     margin-bottom: 8px;
     border-radius: 10px;
     padding: 8px;
@@ -53,7 +53,7 @@ audio {
 img{
     border-radius: 9px;
     margin: 8px;
-    max-width: min-content;
+    max-width: 266px;
     height: auto;
 }
 .imgbgcard{
@@ -70,7 +70,7 @@ img{
     justify-items: center;
 }
 h1,h2{
-    
+    margin-left: 8px;
     display: grid;
     justify-items: center;
     font-size: 20px;
