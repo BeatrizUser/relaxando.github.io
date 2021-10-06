@@ -2,7 +2,7 @@ body{
     background: #686868;
     font-family: 'Yaldevi', sans-serif;
     background-image: url("../assets/bg2.png");
-    background-size: 90%;
+    background-size: 300px;
     background-position: top;
     z-index: 0;
     background-blend-mode: multiply;
